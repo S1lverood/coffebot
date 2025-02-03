@@ -1,0 +1,15 @@
+[0;1;32m●[0m bibiti_bot.service - BIBITI Telegram Bot
+     Loaded: loaded (/etc/systemd/system/bibiti_bot.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Mon 2025-02-03 22:26:21 MSK; 4s ago
+   Main PID: 68026 (python)
+      Tasks: 2 (limit: 1049)
+     Memory: 25.6M
+     CGroup: /system.slice/bibiti_bot.service
+             └─68026 /root/bibiti_bot/venv/bin/python bot.py
+
+Feb 03 22:26:21 ba3yka007.serv.host systemd[1]: Started BIBITI Telegram Bot.
+Feb 03 22:26:21 ba3yka007.serv.host python[68026]: bot.py:701: PTBUserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message. Read this FAQ entry to learn more about the per_* settings: https://github.com/python-telegram-bot/python-telegram-bot/wiki/Frequently-Asked-Questions#what-do-the-per_-settings-in-conversationhandler-do.
+Feb 03 22:26:21 ba3yka007.serv.host python[68026]:   conv_handler = ConversationHandler(
+Feb 03 22:26:24 ba3yka007.serv.host python[68026]: 2025-02-03 22:26:24,513 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8179447378:AAE0ENa174gh1Srt9yMDToPU7hPT01zNkH4/getMe "HTTP/1.1 200 OK"
+Feb 03 22:26:24 ba3yka007.serv.host python[68026]: 2025-02-03 22:26:24,565 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8179447378:AAE0ENa174gh1Srt9yMDToPU7hPT01zNkH4/deleteWebhook "HTTP/1.1 200 OK"
+Feb 03 22:26:24 ba3yka007.serv.host python[68026]: 2025-02-03 22:26:24,567 - telegram.ext.Application - INFO - Application started
